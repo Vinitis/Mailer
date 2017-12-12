@@ -1,16 +1,25 @@
 {
   "name": "mailer",
   "version": "1.0.0",
-  "description": "Mailer application",
-  "main": "Application.js",
-  "scripts": {
-    "start": "nodemon Application.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Kristina Volk",
-  "license": "ISC",
+  "description": "",
+  "main": "app.js",
   "dependencies": {
-    "cli-table": "^0.3.1",
+    "request": "^2.83.0",
     "sqlite3": "^3.1.13"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinitis/Mailer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinitis/Mailer/issues"
+  },
+  "homepage": "https://github.com/Vinitis/Mailer#readme"
 }
