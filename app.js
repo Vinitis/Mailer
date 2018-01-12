@@ -22,7 +22,7 @@ class Application{
       setMailSchedule(argv.mail, argv.content, argv.date, function() {
         console.log('Dodano email!');
         if (argv.date >= Date.now()) {
-          mailSender.send(argv.mail, argv.content, function () {
+          sendMail(argv.mail, argv.content, function () {
               console.log('Wysłano email!');
           })
       }
@@ -66,5 +66,5 @@ class Application{
 
   }
 }
-
+//
 new Application();
