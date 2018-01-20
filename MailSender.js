@@ -16,11 +16,11 @@ class SendMail{
 
   }
 
-send(mailList,content,subject){
+send(mail_list,content,subject){
 
     this.mailOptions = {
         from: '<mymail20182017@gmail.com>',
-        to: 'mpodlaszczyk@gmail.com',
+        to: 'mail_list',
         subject: subject,
         text: 'text',
         html: content
