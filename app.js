@@ -46,7 +46,6 @@ class Application{
 
     //>>Function<<<
     let sendMail= require('./MailSender.js');
-
     callback(save);
   }
   saveMailListIntoDB(mail, content, subject, callback){
